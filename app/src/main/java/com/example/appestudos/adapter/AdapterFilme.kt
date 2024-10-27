@@ -13,7 +13,7 @@ class AdapterFilme(private val context: Context, private val listaFilme: Mutable
         val itemLista = FilmeItemBinding.inflate(LayoutInflater.from(context), parent, false)
         return FilmeViewHolder(itemLista)
     }
-
+                 /* config padrão adapter recycleview sem receber dados de API */
     override fun getItemCount() = listaFilme.size
 
     override fun onBindViewHolder(holder: FilmeViewHolder, position: Int) {

@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         filmes()
     }
 
-    private fun filmes() {
+    private fun filmes() {       /* passa dados para a list e retorna na recycleview */
         val filme1 = Filme("Os Vingadores")
         listaFilmes.add(filme1)
 
